@@ -1,0 +1,50 @@
+
+body {
+  background: #e6f7e9;
+  font-family: Arial, sans-serif;
+}
+.game-card {
+  display: flex;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  padding: 16px;
+  max-width: 400px;
+  margin: 40px auto;
+}
+.game-cover {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 16px;
+}
+.game-info {
+  flex: 1;
+}
+.game-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+.rating-download {
+  display: flex;
+  gap: 10px;
+  font-size: 0.9em;
+  color: #555;
+}
+.latest {
+  font-size: 0.9em;
+  margin: 8px 0;
+}
+.buttons .btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-top: 8px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.btn.android {
+  background: #3ddc84;
+}
